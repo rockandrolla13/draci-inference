@@ -1,0 +1,22 @@
+\begin{table}[t]
+\centering
+\caption{Empirical coverage and prediction interval average width (PIAW) across mixing strengths ($T=500$, $\alpha=0.1$, 10 replications). Standard errors in parentheses.}
+\label{tab:coverage}
+\small
+\begin{tabular}{lcccc}
+\toprule
+Method & \multicolumn{2}{c}{$\rho = 0.0$} & \multicolumn{2}{c}{$\rho = 0.9$} \\
+ & Cov. & PIAW & Cov. & PIAW \\
+\midrule
+DR-ACI & 1.00\tiny{(0.000)} & 11.41\tiny{(0.62)} & 1.00\tiny{(0.000)} & 17.15\tiny{(2.17)} \\
+VS-DR-ACI & 0.97\tiny{(0.002)} & 4.29\tiny{(0.18)} & 0.98\tiny{(0.005)} & 4.97\tiny{(0.42)} \\
+Split conformal & 0.99\tiny{(0.003)} & 4.32\tiny{(0.13)} & 0.99\tiny{(0.003)} & 5.28\tiny{(0.25)} \\
+NExCP & 1.00\tiny{(0.000)} & 11.51\tiny{(0.65)} & 1.00\tiny{(0.000)} & 16.33\tiny{(1.95)} \\
+ACI (non-DR) & 0.99\tiny{(0.005)} & 4.07\tiny{(0.11)} & 0.98\tiny{(0.009)} & 4.91\tiny{(0.20)} \\
+ECI & 1.00\tiny{(0.001)} & 5.39\tiny{(0.08)} & 0.99\tiny{(0.005)} & 6.21\tiny{(0.17)} \\
+Block CP & 1.00\tiny{(0.000)} & 11.21\tiny{(0.81)} & 1.00\tiny{(0.000)} & 17.64\tiny{(2.53)} \\
+HAC (Newey--West) & 0.47\tiny{(0.043)} & 1.17\tiny{(0.10)} & 0.59\tiny{(0.070)} & 1.69\tiny{(0.26)} \\
+Oracle DR-ACI & 1.00\tiny{(0.000)} & 6.50\tiny{(0.22)} & 1.00\tiny{(0.001)} & 7.93\tiny{(0.45)} \\
+\bottomrule
+\end{tabular}
+\end{table}
